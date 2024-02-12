@@ -18,13 +18,13 @@ public class Check_Healenium_Java {
 		  SelfHealingDriver driver = SelfHealingDriver.create(delegate);
 		  driver.get("https://elenastepuro.github.io/test_env/index.html");
 		  driver.manage().window().maximize();
-		  driver.findElement(By.id("change_id")).sendKeys("My name is Ghada TRABELSI");
+		  driver.findElement(By.id("change_id")).sendKeys("QA AUTOMATION");
 	        driver.findElement(By.className("test_class")).sendKeys("test_class");
 	        driver.findElement(By.xpath("//*[@id=\"Submit\"]/span/i")).click();
 	        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	        driver.findElement(By.id("change_id")).clear();
 	        driver.findElement(By.className("test_class")).clear();
-	        driver.findElement(By.id("change_id")).sendKeys("Im an automation tester");
+	        driver.findElement(By.id("change_id")).sendKeys("Test of Healenium");
 	        driver.findElement(By.className("test_class")).sendKeys("test_new_class");
 	        driver.close();
 	}

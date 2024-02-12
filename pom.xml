@@ -7,7 +7,6 @@
   <groupId>Healenium_Demo</groupId>
   <artifactId>Healenium_Demo</artifactId>
   <version>0.0.1-SNAPSHOT</version>
-
   <name>Healenium_Demo</name>
   <!-- FIXME change it to the project's website -->
   <url>http://www.example.com</url>
@@ -17,7 +16,7 @@
     <maven.compiler.source>11</maven.compiler.source>
     <maven.compiler.target>11</maven.compiler.target>
   </properties>
-
+  
   <dependencies>
     <dependency>
       <groupId>junit</groupId>
@@ -35,7 +34,6 @@
     <artifactId>healenium-web</artifactId>
     <version>3.5.0</version>
 </dependency>
-
   </dependencies>
 
   <build>
